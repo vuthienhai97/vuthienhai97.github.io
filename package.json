@@ -2,7 +2,7 @@
   "name": "developer-portfolio",
   "description": "Portfolio of Vu Thien Hai",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/vuthienhai-portfolio",
+  "homepage": "https://vuthienhai97gh.github.io/vuthienhai-portfolio/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
