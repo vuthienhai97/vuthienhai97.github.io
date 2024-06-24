@@ -6,30 +6,39 @@ import travel from '/public/image/travel.jpg'
 export const projectsData = [
   {
     id: 1,
-    name: 'AI Powered Financial App',
-    description:
-      "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
+    name: 'E-Office',
+    description: `"Me and my team built an Web application for sent and approve for proposal document. I have developed UI using NextJs, Typescript and Material UI. Used NextAuth for the authentication system."`,
     tools: [
-      'Express',
-      'MongoDB',
-      'OpenAI API',
-      'AWS SES',
-      'AWS S3',
-      'Node Mailer',
-      'Joi',
-      'Puppeteer',
-      'EC2',
-      'PM2',
-      'Nginx'
+      'NextJs 14',
+      'Material UI',
+      'TypeScript',
+      'NextAuth',
+      'Key Cloak',
+      'React Hook Form MUI',
+      'Yup',
+      'DayJs',
+      'React Query',
+      'Material react table',
+      'HTTP client Ky',
+      'React Dropzone',
+      'iconify icon',
+      'JWT',
+      'i18n',
+      'Figma',
+      'Restful API',
+      'Swagger',
+      'Postman',
+      'Agile'
     ],
-    role: 'Backend Developer',
+    role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: crefin
+    image: crefin,
+    teamSize: 7
   },
   {
     id: 2,
-    name: 'Travel Agency App',
+    name: 'Digital support for lending',
     description:
       'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
     tools: [
@@ -43,10 +52,11 @@ export const projectsData = [
       'Sun-Editor',
       'Gmail Passkey'
     ],
-    role: 'Full Stack Developer',
+    role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: travel
+    image: travel,
+    teamSize: 5
   },
   {
     id: 3,
@@ -67,10 +77,11 @@ export const projectsData = [
       'Cronjob',
       'JWT'
     ],
-    code: '',
     role: 'Full Stack Developer',
+    code: '',
     demo: '',
-    image: realEstate
+    image: realEstate,
+    teamSize: 7
   },
   {
     id: 4,
@@ -78,10 +89,11 @@ export const projectsData = [
     description:
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', 'Calendar'],
+    role: 'Full Stack Developer',
     code: '',
     demo: '',
     image: ayla,
-    role: 'Full Stack Developer'
+    teamSize: 7
   }
 ]
 
