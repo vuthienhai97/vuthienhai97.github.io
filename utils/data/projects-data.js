@@ -1,8 +1,3 @@
-import ayla from '/public/image/ayla.jpg'
-import crefin from '/public/image/crefin.jpg'
-import realEstate from '/public/image/real-estate.jpg'
-import travel from '/public/image/travel.jpg'
-
 export const projectsData = [
   {
     id: 1,
@@ -33,55 +28,60 @@ export const projectsData = [
     role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: crefin,
     teamSize: 7
   },
   {
     id: 2,
     name: 'Digital support for lending',
     description:
-      'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
+      'Collaborated with BA and Designers to understand business requirements, coordinated with BE and Testers for accurate data display, and reported daily progress.',
     tools: [
-      'NextJS',
+      'NextJS 14',
       'Tailwind CSS',
-      'Google Maps',
-      'NestJS',
+      'Material UI',
       'TypeScript',
-      'MySQL',
-      'AWS S3',
-      'Sun-Editor',
-      'Gmail Passkey'
+      'NextAuth',
+      'Key Cloak',
+      'React Hook Form MUI',
+      'Yup',
+      'DayJs',
+      'Material react table',
+      'iconify icon',
+      'JWT',
+      'Figma',
+      'Restful API',
+      'Swagger',
+      'Postman',
+      'Agile'
     ],
     role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: travel,
     teamSize: 5
   },
   {
     id: 3,
-    name: 'AI Powered Real Estate',
+    name: 'SHB Finance',
     description:
-      'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
+      'Displays company news, products, promotions, revenue/expenditure addresses, consulting addresses, product registration, and customer information.',
     tools: [
-      'React',
-      'Bootstrap',
-      'SCSS',
-      'Stripe',
-      'Express',
+      'NextJS 13',
+      'Tailwind CSS',
       'TypeScript',
-      'MongoDB',
-      'Azure Blob',
-      'OpenAI API',
-      'Replicate AI',
-      'Cronjob',
-      'JWT'
+      'DayJS',
+      'Redux Toolkit',
+      'Axios',
+      'React lazy load image',
+      'JWT',
+      'Figma',
+      'Restful API',
+      'Swagger',
+      'Postman'
     ],
-    role: 'Full Stack Developer',
+    role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: realEstate,
-    teamSize: 7
+    teamSize: 5
   },
   {
     id: 4,
@@ -89,10 +89,9 @@ export const projectsData = [
     description:
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', 'Calendar'],
-    role: 'Full Stack Developer',
+    role: `"Front End Developer"`,
     code: '',
     demo: '',
-    image: ayla,
     teamSize: 7
   }
 ]
