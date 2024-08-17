@@ -2,7 +2,7 @@ export const projectsData = [
   {
     id: 1,
     name: 'E-Office',
-    description: `"Me and my team built an Web application for sent and approve for proposal document. I have developed UI using NextJs, Typescript and Material UI. Used NextAuth for the authentication system."`,
+    description: `'Me and my team built an Web application for sent and approve for proposal document. I have developed UI using NextJs, Typescript and Material UI. Used NextAuth for the authentication system'`,
     tools: [
       'NextJs 14',
       'Material UI',
@@ -23,18 +23,18 @@ export const projectsData = [
       'Restful API',
       'Swagger',
       'Postman',
-      'Agile'
+      'Agile/Scrum'
     ],
-    role: `"Front End Developer"`,
+    role: `'Front End Developer'`,
     code: '',
     demo: '',
+    company: 'SHB Finance',
     teamSize: 7
   },
   {
     id: 2,
     name: 'Digital support for lending',
-    description:
-      'Collaborated with BA and Designers to understand business requirements, coordinated with BE and Testers for accurate data display, and reported daily progress.',
+    description: `'Collaborated with BA and Designers to understand business requirements, coordinated with BE and Testers for accurate data display, and reported daily progress'`,
     tools: [
       'NextJS 14',
       'Tailwind CSS',
@@ -52,18 +52,18 @@ export const projectsData = [
       'Restful API',
       'Swagger',
       'Postman',
-      'Agile'
+      'Agile/Scrum'
     ],
-    role: `"Front End Developer"`,
+    role: `'Front End Developer'`,
     code: '',
     demo: '',
+    company: 'SHB Finance',
     teamSize: 5
   },
   {
     id: 3,
     name: 'SHB Finance',
-    description:
-      'Displays company news, products, promotions, revenue/expenditure addresses, consulting addresses, product registration, and customer information.',
+    description: `'Displays company news, products, promotions, revenue/expenditure addresses, consulting addresses, product registration, and customer information'`,
     tools: [
       'NextJS 13',
       'Tailwind CSS',
@@ -78,20 +78,36 @@ export const projectsData = [
       'Swagger',
       'Postman'
     ],
-    role: `"Front End Developer"`,
+    role: `'Front End Developer'`,
     code: '',
     demo: '',
+    company: 'SHB Finance',
     teamSize: 5
   },
   {
     id: 4,
-    name: 'Newsroom Management',
-    description:
-      "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-    tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', 'Calendar'],
-    role: `"Front End Developer"`,
+    name: 'CMS Card Portal',
+    description: `'Manages company-issued cards with features like viewing, downloading, adding, deleting, and editing card product lists.'`,
+    tools: [
+      'NextJS 13',
+      'Material UI',
+      'TypeScript',
+      'React Hook Form MUI',
+      'Redux Toolkit',
+      'Yup',
+      'DayJs',
+      'Axios',
+      'iconify icon',
+      'JWT',
+      'Figma',
+      'Restful API',
+      'Swagger',
+      'Postman'
+    ],
+    role: `'Front End Developer'`,
     code: '',
     demo: '',
+    company: 'SHB Finance',
     teamSize: 7
   }
 ]

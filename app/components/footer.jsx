@@ -11,7 +11,7 @@ function Footer() {
           <div className="absolute top-0 h-[1px] w-1/2 bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
         </div>
         <div className="flex flex-col items-center justify-between md:flex-row">
-          <p className="text-sm">
+          {/* <p className="text-sm">
             © Developer Portfolio by{' '}
             <Link
               target="_blank"
@@ -22,9 +22,8 @@ function Footer() {
             </Link>
           </p>
           <div className="flex items-center gap-5">
-            {/* <Link
+            <Link
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <IoStar />
@@ -32,13 +31,12 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/said7388/developer-portfolio/fork"
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <CgGitFork />
               <span>Fork</span>
-            </Link> */}
-          </div>
+            </Link>
+          </div> */}
         </div>
       </div>
     </div>

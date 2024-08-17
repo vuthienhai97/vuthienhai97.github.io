@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/16288240/vuthienhai97/',
   hackerrank: 'https://www.hackerrank.com/profile/vuthienhai97',
   resume:
-    'https://www.topcv.vn/xem-cv/UgEGCF4CVAVfDAVYVAQCBARaBwFWVQBSVlJXVgb201'
+    'https://drive.google.com/file/d/1NdS_jHDNy3JN_R74L0e0CZ66XhVxlQTt/view?usp=sharing'
 }
